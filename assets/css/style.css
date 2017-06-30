@@ -1,0 +1,31 @@
+.character {
+	width: 150px;
+	height: 150px;
+	border: solid 2px black;
+	float:left;
+	margin: 2% 2%;
+	text-align: center;
+}
+
+.img-character {
+	width: 75%;
+	height: 75%;
+}
+
+.enemy {
+	border: solid 2px red;
+
+}
+.selected-player {
+	/*border: solid 2px green;*/
+	background-color: green;
+	float: none;
+	color: white;
+
+}
+
+.selected-enemy {
+	background-color: red;
+	float:none;
+	color:white;
+}

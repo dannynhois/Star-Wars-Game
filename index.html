@@ -3,16 +3,62 @@
 <head>
 	<title>Star Wars Game</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				
+			<!-- player div -->
+				<div id="div-player" class="row">
+					<h1 class="col-md-12">Select a Hero</h1>
+					<div id="luke" class="character col-md-12">
+						<div>Luke</div>
+						<img src="./assets/images/luke.jpg" class='img-character'>
+						<div class="hit-points">hello</div>
+					</div>
+					<div id="darth-vader" class="character col-md-12">
+						<div>Darth Vader</div>
+						<img src="./assets/images/darth_vader.jpg" class='img-character'>
+						<div class="hit-points">hello</div>
+					</div>
+					<div id="yoda" class="character col-md-12">
+						<div>Yoda</div>
+						<img src="./assets/images/yoda.jpg" class='img-character'>
+						<div class="hit-points">hello</div>
+					</div>
+					<div id="han-solo" class="character col-md-12">
+						<div>Luke</div>
+						<img src="./assets/images/han_solo.jpg" class='img-character'>
+						<div class="hit-points">hello</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- enemies div -->
+		<div id="div-defender">
+			
+		</div>
+		<!-- enemies div -->
+		<div id="div-enemies">
+			
+		</div>
 
 
-	<!-- import jquery -->
+		
+	</div>
+	
+
+	<!-- import jquery, bootstrap, game.js -->
 	<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="assets/javascript/game.js"></script>
+	src="https://code.jquery.com/jquery-2.2.4.min.js"
+	integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
