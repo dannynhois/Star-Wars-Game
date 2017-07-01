@@ -1,31 +1,47 @@
-.character {
-	width: 150px;
-	height: 150px;
-	border: solid 2px black;
-	float:left;
-	margin: 2% 2%;
-	text-align: center;
+h1 {
+	font-size: 1.5em;
+	color: white;
 }
 
-.img-character {
-	width: 75%;
-	height: 75%;
+body {
+	background: url('../images/star_wars_bg.jpg');
+}
+
+.character {
+	background-color: white;
+  border: solid 2px black;
+  float: left;
+  height: 150px;
+  margin: 2% 2%;
+  text-align: center;
+  width: 150px;
+}
+
+.container {
+  padding: 2%;
+}
+
+.div-enemies {
+  float: none;
 }
 
 .enemy {
-	border: solid 2px red;
-
+  border: solid 2px rgb(226, 54, 85);
 }
-.selected-player {
-	/*border: solid 2px green;*/
-	background-color: green;
-	float: none;
-	color: white;
 
+.img-character {
+  height: 75%;
+  width: 75%;
 }
 
 .selected-enemy {
-	background-color: red;
-	float:none;
-	color:white;
+  background-color: red;
+  color: white;
+  float: none;
+}
+
+.selected-player {
+  background-color: rgb(62, 142, 4);
+  color: white;
+  float: none;
 }
